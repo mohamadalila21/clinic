@@ -1,0 +1,118 @@
+
+@media screen and (max-width: 767px) {
+    .container{
+        width: 94%;
+    }
+    .img-title-dec {
+        width: 250px;
+        height: 250px;
+        position: relative;
+    }
+    .text-title-desc .btn-appointment-booking{
+        width: 40%;
+    }
+    .contact-info{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .contact-info article{
+        width: 80%;
+        color: #FFF;
+    }
+    .contentwho-who-are-we{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contentwho-who-are-we article{
+        width: 100%;
+    }
+    .title-who-are-we h3{
+        padding: 10px 0px;
+        color: #0061EF;
+    }
+    .title-who-are-we p{
+        padding: 10px 0px;
+    }
+    .title-services{
+        text-align: center;
+        margin: 60px auto;
+        width: 72%;
+    }
+    .title-services h1{
+        font-size: 18px;
+
+    }
+    .conteiner-services{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .conteiner-services article{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .title-latest-articles{
+        margin: 60px auto;
+        width: 62%;
+    }
+    .title-latest-articles h1{
+        width: 50%;
+    }
+    .all-latest-articles{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    .all-latest-articles .card{
+        margin: 30px 0;
+    }
+    .title-call-us{
+        margin: 60px auto;
+        width: 40%;
+    }
+    .content-call-us{
+        width: 100%;
+        margin: auto auto;
+        background-color: #e9e9e9;
+        border-radius: 8px;
+        margin: 8px auto;
+    }
+    .content-footer{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .content-footer article{
+        width: 80%;
+        /* margin: auto auto; */
+    }
+    .content-footer article:not(:last-child){
+        border-left: 0;
+    }
+    .footer-who-are-we{
+        z-index: 99;
+        padding-right: 10px;
+     }
+     .footer-quick-list{
+        display: none;
+     }
+     .text-title-desc h2{
+        color: #0061EF;
+        padding: 25px 0;
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .content-img-before-and-after{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
